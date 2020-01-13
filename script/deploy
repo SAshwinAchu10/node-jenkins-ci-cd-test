@@ -1,5 +1,5 @@
 #!/bin/sh
-ssh ubuntu@18.232.54.107 <<EOF
+ssh ubuntu@18.232.54.107 /bin/bash <<EOF
  cd /home/ubuntu/node-jenkins-ci-cd-test
  git pull
  npm install — production
