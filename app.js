@@ -7,7 +7,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/ping', function (req, res) {
- res.send('popng 2kqa1a');
+ res.send('pong 1');
 });
 //listen to port 3000 by default
 app.listen(process.env.PORT || 8080);
